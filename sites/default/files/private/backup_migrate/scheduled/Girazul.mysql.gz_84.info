@@ -1,0 +1,8 @@
+filename = "Girazul"
+description = ""
+datestamp = "1519213110"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.56"
+sites[0][name] = "Girazul"
+sites[0][url] = "https://www.girazul.cl/"

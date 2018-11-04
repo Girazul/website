@@ -1,0 +1,42 @@
+/* MENU */
+
+ 
+.navigation {
+  float: right;
+  vertical-align: baseline;
+}
+
+.navigation ul#main-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation #main-menu li {
+  display: block;
+  float: left;
+  list-style-type: none;
+  padding: 9px 0 0 0;
+}
+
+.navigation #main-menu li a {
+  color: #C9DFDC;
+  font-family: 'Oswald';
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: .8em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation #main-menu li a:hover {
+  color: #FF8A00;
+}
+
+.navigation #main-menu li a.active, 
+.navigation #main-menu li.active-trail a {
+  color: #FF8A00;
+}
+
+
+/* -:::- MENU -:::- */

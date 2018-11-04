@@ -1,0 +1,387 @@
+/* THIS FILE WILL HOLD STYLES FOR THE MOBILE VERSION OF YOUR WEBSITE (MOBILE FIRST). */
+/* THIS ALSO CAN INCLUDE ANY GLOBAL CSS THAT APPLIES SITE-WIDE. UNLESS OVERWRITTEN BY A MORE SPECIFIC STYLE RULE, CSS DECLARATIONS IN GLOBAL.CSS WILL APPLY SITE-WIDE. */
+@import url('navigation.css');
+@import url('menuleft.css');
+@import url('panel.css');
+
+/* ADD GENERAL SITE STYLING HERE FOR TYPOGRAPHY AND BACKGROUND */
+
+body {
+  background:#fff url(images/bg.jpg) repeat fixed 0 0;
+  color: #5E6568;
+  font-family: 'Lucida Grande',sans-serif,Verdana;
+  font-size: 75%;/*ALSO SET IN FUSION_STARTER.INFO: SETTINGS[BASE-FONT-SIZE] = FONT-SIZE-12 */
+}
+
+h1 {
+  color: #30393D;
+  font-size: 320%;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px #ccc;
+}
+
+h2 {
+  color: #53798B;
+  font-size: 280%;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+h3 {
+  color: #53798B;
+  font-size: 180%
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+h4 {
+  color: #662288;
+  font-weight: normal;
+  font-size: 150%;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 120%;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+}
+
+h6 {
+  font-size: 105%
+  letter-spacing: 0.05em;
+  margin-bottom: 3px;
+}
+
+code {
+  background-color: #eee;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+blockquote {
+  color: #bd4478;
+  border-left: 3px solid;
+  border-color: #e0edf3;
+  font-style: italic;
+  margin-left: 10px;
+  padding-left: 4px;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.6em;
+}
+
+p:first-child {
+  margin-top: 0px;
+}
+
+#logo {
+  width: 290px;
+  position:relative;
+  left:0px;
+  top:-5px;
+}
+
+.site-name-slogan {
+  float: left;
+  padding: 0;
+}
+
+.site-name {
+  text-shadow: none;
+}
+
+.site-slogan {
+  color: #000;
+  text-align: center;
+}
+
+.frase-principal {
+  color: #17649A;
+  font-family: 'Oswald';
+  font-size: 3.3em;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  padding: 10px;
+}
+
+#first-time {
+display:none;
+}
+
+/* ::: ADD GENERAL SITE STYLING HERE FOR TYPOGRAPHY AND BACKGROUND ::: */
+
+/* DEFAULT LINK STYLES - SEPARATE A:VISITED FOR A DIFFERENT VISITED LINK STYLE */
+
+a,
+a:link,
+a:visited {
+  color: #006699;
+  text-decoration:none;
+}
+
+/* HOVER/ACTIVE LINK STYLES. DON'T FORGET :FOCUS FOR ACCESSIBILITY */
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #2266dd;
+  text-decoration: none;
+}
+
+/* PAGE TITLES */
+
+/* PAGE AND FULL NODE TITLES */
+
+h1.title {
+  color: #30393D;
+  font-size: 350%;
+  line-height: 130%;
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+
+h2.node-title {
+  font-size: 350%;
+}
+
+h2.node-title a {
+  text-decoration:none;
+}
+
+body.full-node h1.title {
+  border-bottom: 4px solid #30393D;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  width: 70%;
+}
+
+/* BLOCK TITLES NEEDS REVISION 
+USING FONT OSWALD INSTALL A GOOGLE FONT THEME ETC 
+THERES ANOTHER BLOCK TITLE H2 THING*/
+.region-sidebar-first-inner h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+/* ::: BLOCK TITLES NEEDS REVISION ::: */
+
+
+/* VITRINA */
+
+.flex-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+}
+
+.flexslider {
+  background: #fff;
+  border: none; /* border: 5px solid #eee; */
+
+}
+
+.flex-nav-container {
+    float: right;
+    margin-bottom: 1px; /* ELIMINA ESPACIO BAJO LA VITRINA */
+    position: relative;
+    width: 100%;
+}
+
+/* -:::- VITRINA -:::- */	
+
+.views-field-field-bloque-derecho {
+  color: #5E6568;
+  font-size:12px;
+  padding: 5px 10px 10px 10px;
+  text-align:justify;
+}
+
+.content {
+  padding: 5px 10px 10px 10px;
+  margin-bottom: 1px;
+}
+
+#node-panel-13, .content {
+  padding: 0;
+}
+
+
+#block-block-6 { /* ICONOS DE LAS REDES SOCIALES */
+  padding: 0;	
+}
+
+/*  ZONE BRANDING  */
+.zone-branding-wrapper {
+  background:transparent;
+}
+#zone-branding {
+  background:transparent;
+  margin-top:20px;
+}
+
+/*  ZONE MENU  */
+
+#zone-menu-wrapper {
+  background:#FF8A00;	
+  height:34px;
+}
+
+#zone-menu {
+  background:#083BCE;
+  height:34px;
+}
+
+#zone-header-wrapper {
+  background:transparent;	
+}
+
+#zone-header {
+  background:#083BCE;
+}
+
+#zone-header .grid-24 { /* ELIMINA LOS MARGENES IZQUIERDO Y DERECHO */
+  margin: 0; 
+  width: 960px;
+}
+
+#zone-preface-wrapper {
+  padding: 0 0 0 0;	
+}
+
+#zone-preface {
+  background: #fff;
+  border-left: 1px solid #f1f1f5;
+  border-right: 1px solid #f1f1f5;
+  box-shadow: 0 1px 28px #f1f1f5;
+  padding: 5px 0 10px 0;
+}
+
+#zone-postscript {
+  background: #fff;
+
+}
+
+/* SOLUCION CHARCHA PARA CORRER EL TITULO RECETAS PARA ABAJO */
+.region-postscript-first-inner {
+  box-shadow: 0 1px 28px #f1f1f5;
+  position:relative;
+  left:0px;
+  top:28px;	
+}
+
+.block-title  {
+  border-bottom: 5px solid #FF8A00;
+  color: #013466;
+  font-family: 'Just Another Hand';
+  font-size: 200%;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+#zone-content-wrapper {
+}
+
+#zone-content {
+  background: #fff;
+  padding: 10px 0 20px 0;	
+}
+
+#zone-content .view-portada p {
+  font-size: 100%;
+  font-family: "Lucida Grande", Tahoma;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  padding: 5px 0 0 0;
+}
+
+/* BLOQUES */
+h2.block-title {
+  border-bottom: 4px solid #FF8A00;
+  color: #013466;
+  font-family: 'Oswald';
+  font-size: 200%;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+/* -:::- BLOQUES -:::- */
+
+
+/* SUBCONTENIDO */	
+
+.view-portada p {
+  font-size: 11px;
+  font-family: "Lucida Grande", Tahoma;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+  padding: 5px 0 0 0;
+}
+
+/* BORDE BLANCO PARA RODEAR LAS IMAGENES DEL SUBCONTENIDO */
+.pc {
+  background: #ccc;
+  padding: 2px;
+}
+
+.region-preface-first-inner, .region-preface-second-inner, .region-preface-third-inner {
+  background:transparent;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(23, 100, 154, 0.3);
+  color: #5E6568;
+  margin: 0 0 5px 0;
+  padding: 10px;
+}
+
+
+/* -:::- SUBCONTENIDO -:::- */	
+
+
+/* FOOTER STYLES */	
+
+/*  ZONE FOOTER */
+.zone-footer-wrapper {
+
+}
+
+#zone-footer {
+  background:#FF8A00;
+  border-top: 7px solid #083BCE;
+  border-left: 1px solid #FF8A00;
+  border-right: 1px solid #FF8A00;
+  box-shadow: 0 1px 28px #f1f1f5;
+  margin-bottom: 140px;
+  padding: 20px 0 20px 0;
+}
+
+.views-field-field-pie-de-pagina {
+  color: #000;	
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/* PUT THE FOOTER ICONS TO THE RIGHT */
+#region-footer-second {
+  text-align: right;	
+}
+/* -:::- FOOTER STYLES -:::- */	
+
+
+table {
+    border: none;
+    width: 100%;
+}
+
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
+    background: none repeat scroll 0 0 #fff;
+}
